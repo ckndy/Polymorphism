@@ -34,13 +34,12 @@ public class Bear {
   }
 
   public int totalNutrition() {
-    int total = ?;
-    for(Edible food : this.belly)
+    int total = 60;
+    for(Edible food : this.belly) {
+
+    total += food.nutritionValue();
   }
 
-  total += food.nutritionValue();
-  }
-
-  return total;
+    return total;
   }
 }

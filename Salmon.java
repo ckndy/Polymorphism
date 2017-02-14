@@ -7,3 +7,4 @@ public class Salmon implements Edible, Swimmable {
   public int nutritionValue() {
     return 10;
   }
+}

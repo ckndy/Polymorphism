@@ -81,7 +81,7 @@ public class BearTest {
     bear.eat(salmon);
     bear.eat(human);
     bear.eat(chicken);
-    assertEquals(?, bear.)
+    assertEquals(60, bear.totalNutrition);
    }
  }
   

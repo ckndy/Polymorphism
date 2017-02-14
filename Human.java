@@ -6,4 +6,5 @@ public class Human implements Edible, Swimmable {
 
   public int nutritionValue() {
       return 20;
+  }
 }
